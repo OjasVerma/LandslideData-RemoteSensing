@@ -1,0 +1,40 @@
+{
+    "M1_RGB": {
+        "bands": [
+            "B2",
+            "B3",
+            "B4"
+        ],
+        "threshold": 0.825
+    },
+    "M2_RGB_NIR": {
+        "bands": [
+            "B2",
+            "B3",
+            "B4",
+            "B8"
+        ],
+        "threshold": 0.9
+    },
+    "M3_RGB_NIR_SWIR1": {
+        "bands": [
+            "B2",
+            "B3",
+            "B4",
+            "B8",
+            "B11"
+        ],
+        "threshold": 0.875
+    },
+    "M4_ALL_SIX": {
+        "bands": [
+            "B2",
+            "B3",
+            "B4",
+            "B8",
+            "B11",
+            "B12"
+        ],
+        "threshold": 0.85
+    }
+}
